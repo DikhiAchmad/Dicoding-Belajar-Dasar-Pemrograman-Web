@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="shortcut icon" href="./assets/img/accusoft-brands.svg" type="image/x-icon">
+    <title>Book Store | Dikhi Achmad Dani</title>
+    <link rel="stylesheet" href="./assets/styles/style.css">
+</head>
+
+<body>
+    <header class="navbar" id="navbar">
+        <h3 class="nav-brand"><i class="fab fa-accusoft"></i> book store</h3>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#best-seller">Best Seller</a></li>
+            </ul>
+        </nav>
+        <a class="iconic" href="#"><i id="ico" class="fas fa-bars"></i></a>
+    </header>
+    <main>
+        <div id="content">
+            <article class="home">
+                <div class="container">
+                    <div class="carousel">
+                        <div class="carousel-item">
+                            <img class="slide-img" src="./assets/img/Banner-Buku.jpg">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="slide-img" src="./assets/img/BANNER-SALE.jpg">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="slide-img" src="./assets/img/bodo-amat.jpg">
+                        </div>
+                        <button class="left-slide" onclick="Swipe(-1)"><i class="fas fa-angle-left"></i></button>
+                        <button class="right-slide" onclick="Swipe(1)"><i class="fas fa-angle-right"></i></button>
+                    </div>
+                </div>
+            </article>
+            <article class="service" id="service">
+                <div class="title-content">
+                    <h1 class="title">Service</h1>
+                    <p class="desc">Kami akan selalu berusaha memberikan pelayanan yang terbaik untuk kalian</p>
+                </div>
+                <div class="container">
+                    <div class="card">
+                        <span class="icon-card"><i class="fas fa-donate"></i></span>
+                        <h3 class="card-title">Harga Terjangkau</h3>
+                        <p class="card-desc">dijamin pasti harganya terjangkau</p>
+                    </div>
+                    <div class="card">
+                        <span class="icon-card"><i class="fas fa-shipping-fast"></i></span>
+                        <h3 class="card-title">Layanan Cepat</h3>
+                        <p class="card-desc">kami selalu berusaha memberi pelayanan yang tercepat dan terbaik</p>
+                    </div>
+                    <div class="card">
+                        <span class="icon-card"><i class="fas fa-shield-alt"></i></span>
+                        <h3 class="card-title">Garansi uang kembali</h3>
+                        <p class="card-desc">kami akan memberikan garansi 1 bulan pasca barang sudah datang</p>
+                    </div>
+                </div>
+            </article>
+            <article class="rekomendasi">
+                <div class="title-content">
+                    <h1 class="title">Rekomendasi Dari Kami</h1>
+                    <p class="desc">berikut beberapa Rekomendasi dari kami</p>
+                </div>
+                <div class="container">
+                    <a href="#" class="card">
+                        <img class="card-img" src="./assets/img/Demon Slayer.jpg" alt="">
+                        <h3 class="card-title">Demon Slayer: Kimetsu no Yaiba 01</h3>
+                        <p class="card-penulis">Koyoharu Gotouge</p>
+                        <p class="card-harga">Rp 40.000</p>
+                    </a>
+                    <a href="#" class="card">
+                        <img class="card-img" src="./assets/img/milea.jpg" alt="">
+                        <h3 class="card-title">Milea Suara <br> Dari Dilan</h3>
+                        <p class="card-penulis">Pidi Baiq</p>
+                        <p class="card-harga">Rp 89.000</p>
+                    </a>
+                    <a href="#" class="card">
+                        <img class="card-img" src="./assets/img/Sebuah-Seni-Untuk-Bersikap-Bodo-Amat.jpg" alt="">
+                        <h3 class="card-title">Sebuah Seni untuk Bersikap Bodo Amat</h3>
+                        <p class="card-penulis">Mark Manson</p>
+                        <p class="card-harga">Rp 67.000</p>
+                    </a>
+                </div>
+            </article>
+            <article class="best-seller" id="best-seller">
+                <div class="title-content">
+                    <h1 class="title">Best Seller Book</h1>
+                    <p class="desc">Jelajahi list buku-buku best seller 2021 terbaru dari berbagai kategori seperti
+                        novel fiksi, novel romance, buku anak, pendidikan, & lainnya.</p>
+                </div>
+                <div class="container">
+                    <a href="#" class="card">
+                        <img class="card-img" src="./assets/img/Demon Slayer.jpg" alt="">
+                        <h3 class="card-title">Demon Slayer: Kimetsu no Yaiba 01</h3>
+                        <p class="card-penulis">Koyoharu Gotouge</p>
+                        <p class="card-harga">Rp 40.000</p>
+                    </a>
+                    <a href="#" class="card">
+                        <img class="card-img" src="./assets/img/milea.jpg" alt="">
+                        <h3 class="card-title">Milea Suara <br> Dari Dilan</h3>
+                        <p class="card-penulis">Pidi Baiq</p>
+                        <p class="card-harga">Rp 89.000</p>
+                    </a>
+                    <a href="#" class="card">
+                        <img class="card-img" src="./assets/img/cpns.jpg" alt="">
+                        <h3 class="card-title">Panduan Resmi Tes Cpns Cat 2019/2020+Cd</h3>
+                        <p class="card-penulis">Raditya Panji Umbara</p>
+                        <p class="card-harga">Rp 184.000</p>
+                    </a>
+                    <a href="#" class="card">
+                        <img class="card-img" src="./assets/img/Sebuah-Seni-Untuk-Bersikap-Bodo-Amat.jpg" alt="">
+                        <h3 class="card-title">Sebuah Seni untuk Bersikap Bodo Amat</h3>
+                        <p class="card-penulis">Mark Manson</p>
+                        <p class="card-harga">Rp 67.000</p>
+                    </a>
+                    <a href="#" class="card">
+                        <img class="card-img" src="./assets/img/selamat tinggal.jpg" alt="">
+                        <h3 class="card-title">Selamat Tinggal</h3>
+                        <p class="card-penulis">Tere Liye</p>
+                        <p class="card-harga">Rp 85.000</p>
+                    </a>
+                    <a href="#" class="card">
+                        <img class="card-img" src="./assets/img/wingit.jpg" alt="">
+                        <h3 class="card-title">Wingit</h3>
+                        <p class="card-penulis">Sara Wijayanto</p>
+                        <p class="card-harga">Rp 100.000</p>
+                    </a>
+                </div>
+            </article>
+        </div>
+        <aside>
+            <section class="biodata" id="about">
+                <h1 class="bio-title">About Me</h1>
+                <p class="bio-sub-title">biodata pribadi</p>
+                <img class="photo-bio" src="./assets/img/myphoto.png">
+                <div class="bio">
+                    <p>Nama lengkap</p>
+                    <p>Dikhi Achmad Dani</p>
+                    <p>Pekerjaan</p>
+                    <p>Mahasiswa</p>
+                    <p>email</p>
+                    <p>dikia656@gmail.com</p>
+                    <p>no telpon</p>
+                    <p>0895397357085</p>
+                    <p>Status</p>
+                    <p>Belum Menikah</p>
+                </div>
+            </section>
+        </aside>
+    </main>
+    <footer>
+        Copyright &copy; 2021 Dikhi Achmad Dani
+    </footer>
+    <script src="./assets/styles/index.js"></script>
+</body>
+
+</html>

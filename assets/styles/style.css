@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: #1b1717;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #eeebdd;
+}
+
+main {
+    padding: 0 50px;
+    overflow: auto;
+}
+
+#content {
+    width: 75%;
+    float: left;
+    padding-right: 25px;
+}
+
+aside {
+    float: right;
+    width: 25%;
+}
+
+/* navbar */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 50px;
+    margin-bottom: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    transition: 0.5s;
+}
+
+.navbar-scroll {
+    padding: 20px 50px;
+    background-color: #064420;
+}
+
+.navbar-scroll nav ul li a {
+    color: white;
+}
+
+.navbar-scroll .nav-brand {
+    color: white;
+}
+
+.navbar-scroll i {
+    color: white;
+}
+
+.navbar-transparent {
+    background-color: transparent !important;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.iconic {
+    font-size: 20px;
+    display: none;
+}
+
+.nav-brand {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* navbar */
+
+/* home */
+article {
+    background-color: #fffdf6;
+    margin-bottom: 25px;
+    border-radius: 20px;
+}
+
+.home .container .carousel {
+    position: relative;
+    padding: 30px;
+}
+
+.left-slide,
+.right-slide {
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #1b1717;
+    border: 0;
+}
+
+.left-slide i,
+.right-slide i {
+    color: #fdfaf6;
+    font-size: 2em;
+}
+
+.left-slide {
+    left: 30px;
+}
+
+.right-slide {
+    right: 30px;
+}
+
+.home .container .carousel .carousel-item .slide-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* home */
+
+/* card and title content */
+.title-content {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.title-content .title {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+
+.title-content .desc {
+    font-size: 0.9em;
+    line-height: 25px;
+}
+
+.card .icon-card i {
+    color: white;
+    padding: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: #064420;
+}
+
+.card .card-title {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.card .card-desc {
+    padding: 15px 0;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.card {
+    width: 25%;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #fdfaf6;
+    margin: 0 20px 20px;
+    text-align: center;
+    transition: 0.7s;
+}
+
+.card .card-img {
+    padding: 10px 0;
+    width: 75%;
+}
+
+.card .card-penulis {
+    font-size: 12px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+.card .card-harga {
+    padding: 10px 0 15px;
+    font-size: small;
+    font-weight: bold;
+    color: #1b1717;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 10px 0px #9b9b9b;
+}
+
+/* card and title content */
+
+/* service */
+.service {
+    padding: 50px;
+}
+
+.service .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* service */
+
+/* rekomendasi */
+.rekomendasi {
+    padding: 50px;
+}
+
+.rekomendasi .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.rekomendasi .container a {
+    text-decoration: none;
+}
+
+/* rekomendasi */
+
+/* best seller */
+.best-seller {
+    padding: 50px;
+}
+
+.best-seller .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.best-seller .container a {
+    text-decoration: none;
+}
+
+/* best seller */
+
+/* biodata */
+.biodata {
+    background-color: #fffdf6;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.biodata .bio-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 3px;
+    text-transform: lowercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.biodata .bio-sub-title {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.biodata .photo-bio {
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.7s;
+    margin: 15px 0;
+
+}
+
+.biodata .photo-bio:hover {
+    box-shadow: 0px 0px 10px 0px #9b9b9b;
+}
+
+.bio {
+    text-align: center;
+    line-height: 25px;
+}
+
+.bio p:nth-child(2n+1) {
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    text-transform: lowercase;
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: 1px;
+}
+
+.bio p:nth-child(even) {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+/* biodata */
+/* footer */
+footer {
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    padding: 40px 0;
+}
+
+/* footer */
+
+/* media query */
+@media screen and (max-width: 1000px) {
+
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .iconic {
+        display: block;
+    }
+
+    .home .container .carousel {
+        padding: 10px;
+    }
+
+    .left-slide,
+    .right-slide {
+        top: 50%;
+        width: 15px;
+        height: 15px;
+    }
+
+    .left-slide i,
+    .right-slide i {
+        font-size: 1em;
+    }
+
+    .service {
+        padding: 50px 20px;
+    }
+
+    .rekomendasi {
+        padding: 50px 20px;
+    }
+
+    .best-seller {
+        padding: 50px 20px;
+    }
+
+    .card {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .bio p:nth-child(2n+1) {
+        font-size: large;
+        margin-bottom: 3px;
+    }
+
+    .bio p:nth-child(even) {
+        font-size: medium;
+    }
+}
